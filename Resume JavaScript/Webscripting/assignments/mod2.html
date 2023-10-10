@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loops and If/Else Statements</title>
+    </head>
+
+    <body>
+    <h1 align=center>This webpage is to demostrate loops and conditional statments</h1>
+    <h2>These are conditional statements</h2>
+        
+        <p>This is an if statments</p>
+    <script>
+        var x= "I love pudding!";
+        var y= "I love cake!";
+        
+        if(x != y){ // if x and y are not the same, write out varible x
+            document.write(x);
+        }
+        </script>
+        
+        <p> This is an if/else statement</p>
+     <script>
+        var x= "I love pudding!";
+        var y= "I love cake!";
+        
+        if(x == y){ // if x and y are the same, write out varible x
+            document.write(x);
+        } else { // if the beginning statement isn't true, write out varible y
+            document.write(y);
+        }
+        </script>    
+    
+        
+        <h2>These are loops</h2>
+        <p>This is code counting up with a while loop until it is not less than 10</p>
+    <script>
+        var x=0;
+        while(x<10){ // write out the following code until x < 10
+            document.write(x); // State varible X
+            document.write("<br>");
+            x++; // add 1 to varible X's value              
+        }
+        
+        
+        </script>
+        
+        <p>This is code counting up with a do/while loop until it is not less than 10</p>
+    <script>
+        var x=0;
+        do{ // do this before any other code
+            document.write(x); // write out the value for x
+            document.write("<br>");
+            x++;  // add 1 to the value of x
+        }while(x<10) // repeat until x < 10
+        </script>
+        
+        <p>This is code counting up with a for loop</p>
+        <script>
+        for(x=0; x < 14; x++){ // the varible x = 0, each time the program is run, increase the value of x by 1, run program until x < 14
+                 document.write(x); //write out varible x
+            document.write("<br>");
+            x++; //add 1 to the value of x
+        }
+        </script>
+        
+    
+        <p align=center><small><a href="../assignments.html">Back to Assignments Page</a></small></p>
+   <footer> <small><span>&copy; Maximilian Reitmayer 2021</span></small></footer>
+    </body>
+</html>

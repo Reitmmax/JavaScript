@@ -1,0 +1,33 @@
+ body { background-color: aliceblue; } /* Changes background color */
+
+h2 { color:crimson;        /* changes color and centers text for h2 elements */
+    text-align: center;
+    text-decoration: underline;}
+
+#text {color:dimgrey;   /* Changes color and moves text off the edge of the page */
+        margin-left: 25px;}
+
+
+/* navbar */
+ul {
+  list-style-type: none; /* gets rid of the dots in the listing */
+  margin: 0;
+  padding: 0;
+    background-color: deepskyblue; /*changes color */
+    overflow: hidden; /* allows the list to not overlap elements */
+    
+}
+
+li { float:left; /* allows the li elements to be next to each other rather than on top of each other */
+}
+
+
+li a {
+    display: block;
+  color: purple;
+  text-align: center;
+  padding: 14px 16px;
+    text-decoration: none; /* gets rid of the underlines for the links */
+    margin-left: 200px; /* forces the list to be further apart */
+}
+

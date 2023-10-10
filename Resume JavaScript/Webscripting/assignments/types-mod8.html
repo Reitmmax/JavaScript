@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Types</title>
+    <script>
+function questions() {// start of function
+	var cor = 0; //counter
+
+	var q1 = prompt("What is 2+2");// prompt the question
+	if (q1 == "4") { // if the answer is correct, display correct, if not, it is null and doesnt display anything; string to show type conversion
+    	document.write("Correct!");
+		document.write("<br>");
+		cor++; // add 1 to the counter
+	}
+
+	var q2 = prompt("What is 3+3") 
+    	;
+	if (q2 == "6") {  // if the answer is correct, display correct, if not, it is null and doesnt display anything; string to show type conversion
+    	document.write("Correct!");
+		document.write("<br>");
+		cor++; // add 1 to the counter
+	}
+
+
+	var q3 = prompt("What is 7 + 4");
+	if (q3 == 11) {  // if the answer is correct, display correct, if not, it is null and doesnt display anything; no string to show type conversion
+    	document.write("Correct!");
+		document.write("<br>");
+		cor++; // add 1 to the counter
+	}
+	
+
+	var q4 = prompt("What is 6 + 9");
+	if (q4 == 15) {  // if the answer is correct, display correct, if not, it is null and doesnt display anything; no string to show type conversion
+    	document.write("Correct!");
+		document.write("<br>");
+		cor++; // add 1 to the counter
+	}
+	return cor;
+}
+var correct = questions();
+document.write("You got " + correct + " answers correct!");
+document.write("<br>");
+if (correct == 4) {
+	document.write("PERFECT SCORE!!!");
+}
+        
+        
+        </script>
+    </head>
+
+    <body>
+
+    
+     <footer> <small><span>&copy;</span> Maximilian Reitmayer 2021</small></footer>
+    </body>
+</html>
